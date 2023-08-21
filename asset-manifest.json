@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.05e5bdd9.css",
+    "main.js": "/Portfolio/static/js/main.e47a95e6.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/FitnessHub.PNG": "/Portfolio/static/media/FitnessHub.9829401cef87e2168c22.PNG",
+    "static/media/Greenbay.png": "/Portfolio/static/media/Greenbay.adf5dc7108d2667fb9df.png",
+    "static/media/bootstrap.png": "/Portfolio/static/media/bootstrap.649301f05e5ddb0b8a09.png",
+    "static/media/css.png": "/Portfolio/static/media/css.19c8605d6b2861f5fbe0.png",
+    "static/media/sass.png": "/Portfolio/static/media/sass.7cdbf6b5889c42b3e490.png",
+    "static/media/react.webp": "/Portfolio/static/media/react.2a0cac33f155e4a27216.webp",
+    "index.html": "/Portfolio/index.html",
+    "main.05e5bdd9.css.map": "/Portfolio/static/css/main.05e5bdd9.css.map",
+    "main.e47a95e6.js.map": "/Portfolio/static/js/main.e47a95e6.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05e5bdd9.css",
+    "static/js/main.e47a95e6.js"
+  ]
+}
