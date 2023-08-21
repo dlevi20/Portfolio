@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto:wght@300;400;500;700&display=swap");
+::-webkit-scrollbar {
+  width: 0.8em;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #c8e3e4;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ee6c4d;
+  border-radius: 1em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #d86245;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e0fbfc;
+  color: #293241;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+select {
+  background-color: #293241;
+  border: none;
+  color: #e0fbfc;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 1em;
+}
+
+.navbar {
+  height: 60px;
+  width: 100%;
+  top: 0;
+  background-color: #293241;
+  color: #e0fbfc;
+}
+.navbar .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .navbar-menu {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+  background-color: #293241;
+  display: none;
+}
+.navbar .navbar-icon {
+  position: absolute;
+  z-index: 3;
+  right: 0;
+  padding: 0em 1em;
+}
+.navbar .list-item {
+  font-size: 1.5em;
+}
+.navbar .list-item:hover {
+  color: #ee6c4d;
+  transition: all 0.2s ease-in-out;
+}
+
+.main-page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-page .about-section {
+  margin-bottom: 0.5em;
+}
+.main-page .img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5em;
+}
+.main-page .self-portarit {
+  width: 250px;
+  height: 250px;
+  border: 2px solid #293241;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.main-page .text {
+  background-color: #293241;
+  color: #e0fbfc;
+  text-align: center;
+  padding: 0.5em;
+  border-radius: 1em;
+}
+.main-page .title {
+  color: #ee6c4d;
+  margin-bottom: 0.2em;
+}
+.main-page .about {
+  text-align: justify;
+}
+.main-page .swiper-slide {
+  height: 100px;
+  text-align: center;
+}
+.main-page .swiper-img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.main-page .swiper {
+  width: 100%;
+}
+.main-page .swiper-title {
+  margin-top: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.projects .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1em;
+}
+.projects .project {
+  background-color: #293241;
+  height: 100%;
+  width: 100%;
+  padding: 1em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.projects .project-img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1em;
+  cursor: pointer;
+}
+.projects .project-title {
+  color: #ee6c4d;
+  margin: 0.2em 0em;
+}
+.projects .project-description {
+  color: #e0fbfc;
+  text-align: justify;
+  line-height: 1.4em;
+}
+.projects .project-btns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1em;
+}
+.projects .project-btns .project-btn {
+  margin-top: 0.5em;
+  padding: 0.3em;
+  background-color: #ee6c4d;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 0.5em;
+}
+.projects .project-btns .project-btn:hover {
+  background-color: #e0fbfc;
+  color: #293241;
+  transition: all 0.2s ease-in;
+}
+.projects .projects-title {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.contact .contact-title {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.contact .contact-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.contact .contact-text {
+  height: 100%;
+  width: 100%;
+}
+.contact .contact-icons div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+.contact .contact-icons .contact-icon {
+  margin-right: 0.5em;
+  padding: 0.25em;
+  background-color: #293241;
+  color: #e0fbfc;
+  border-radius: 50%;
+}
+.contact form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.contact input {
+  border: none;
+  padding: 0.75em;
+  border-radius: 0.5em;
+  background-color: #293241;
+  color: #e0fbfc;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+.contact input::-moz-placeholder {
+  color: #e0fbfc;
+}
+.contact input::placeholder {
+  color: #e0fbfc;
+}
+.contact textarea {
+  border: none;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  background-color: #293241;
+  color: #e0fbfc;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+.contact textarea::-moz-placeholder {
+  color: #e0fbfc;
+}
+.contact textarea::placeholder {
+  color: #e0fbfc;
+}
+.contact button {
+  width: -moz-fit-content;
+  width: fit-content;
+  align-self: center;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  background-color: #ee6c4d;
+  color: #293241;
+  font-weight: bolder;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (min-width: 650px) {
+  select {
+    font-size: 1em;
+  }
+  .navbar .navbar-menu {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1em;
+  }
+  .navbar .navbar-icon {
+    display: none;
+  }
+  .navbar .list-item {
+    font-size: 1em;
+  }
+  .main-page .about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-page .text {
+    background-color: transparent;
+    color: #293241;
+    text-align: left;
+  }
+  .contact .contact-flex {
+    flex-direction: row;
+  }
+}/*# sourceMappingURL=style.css.map */
