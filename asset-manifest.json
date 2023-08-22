@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.10c4257a.css",
-    "main.js": "/Portfolio/static/js/main.3e0447e3.js",
-    "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
-    "static/media/GreenbayVideo.mp4": "/Portfolio/static/media/GreenbayVideo.061b1dcf76a3e82194fb.mp4",
-    "static/media/BootstrapVideo.mp4": "/Portfolio/static/media/BootstrapVideo.07258962e0870078f24f.mp4",
-    "static/media/FitnessHubVideo.mp4": "/Portfolio/static/media/FitnessHubVideo.8faad4bcf210df048331.mp4",
-    "static/media/profileImg.jpg": "/Portfolio/static/media/profileImg.5386faa2a03018ed89d1.jpg",
-    "static/media/FitnessHub.PNG": "/Portfolio/static/media/FitnessHub.9829401cef87e2168c22.PNG",
-    "static/media/Greenbay.png": "/Portfolio/static/media/Greenbay.adf5dc7108d2667fb9df.png",
-    "static/media/bootstrap.png": "/Portfolio/static/media/bootstrap.649301f05e5ddb0b8a09.png",
-    "static/media/css.png": "/Portfolio/static/media/css.19c8605d6b2861f5fbe0.png",
-    "static/media/sass.png": "/Portfolio/static/media/sass.7cdbf6b5889c42b3e490.png",
-    "static/media/react.webp": "/Portfolio/static/media/react.2a0cac33f155e4a27216.webp",
-    "index.html": "/Portfolio/index.html",
-    "main.10c4257a.css.map": "/Portfolio/static/css/main.10c4257a.css.map",
-    "main.3e0447e3.js.map": "/Portfolio/static/js/main.3e0447e3.js.map",
-    "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/EnglishPortfolio/static/css/main.10c4257a.css",
+    "main.js": "/EnglishPortfolio/static/js/main.31b5eb33.js",
+    "static/js/787.28cb0dcd.chunk.js": "/EnglishPortfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/GreenbayVideo.mp4": "/EnglishPortfolio/static/media/GreenbayVideo.061b1dcf76a3e82194fb.mp4",
+    "static/media/BootstrapVideo.mp4": "/EnglishPortfolio/static/media/BootstrapVideo.07258962e0870078f24f.mp4",
+    "static/media/FitnessHubVideo.mp4": "/EnglishPortfolio/static/media/FitnessHubVideo.8faad4bcf210df048331.mp4",
+    "static/media/profileImg.jpg": "/EnglishPortfolio/static/media/profileImg.5386faa2a03018ed89d1.jpg",
+    "static/media/FitnessHub.PNG": "/EnglishPortfolio/static/media/FitnessHub.9829401cef87e2168c22.PNG",
+    "static/media/Greenbay.png": "/EnglishPortfolio/static/media/Greenbay.adf5dc7108d2667fb9df.png",
+    "static/media/bootstrap.png": "/EnglishPortfolio/static/media/bootstrap.649301f05e5ddb0b8a09.png",
+    "static/media/css.png": "/EnglishPortfolio/static/media/css.19c8605d6b2861f5fbe0.png",
+    "static/media/sass.png": "/EnglishPortfolio/static/media/sass.7cdbf6b5889c42b3e490.png",
+    "static/media/react.webp": "/EnglishPortfolio/static/media/react.2a0cac33f155e4a27216.webp",
+    "index.html": "/EnglishPortfolio/index.html",
+    "main.10c4257a.css.map": "/EnglishPortfolio/static/css/main.10c4257a.css.map",
+    "main.31b5eb33.js.map": "/EnglishPortfolio/static/js/main.31b5eb33.js.map",
+    "787.28cb0dcd.chunk.js.map": "/EnglishPortfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10c4257a.css",
-    "static/js/main.3e0447e3.js"
+    "static/js/main.31b5eb33.js"
   ]
 }
