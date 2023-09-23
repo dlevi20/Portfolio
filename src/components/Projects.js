@@ -2,9 +2,10 @@ import React from "react"
 import HoverVideoPlayer from "react-hover-video-player"
 import GreenBay from "../Greenbay.png"
 import FitnessHub from "../FitnessHub.PNG"
+import ComicWorld from '../ComicWorld.png'
 import FitnessHubVideo from "../videos/FitnessHubVideo.mp4"
 import GreenbayVideo from "../videos/GreenbayVideo.mp4"
-import BootstrapVideo from "../videos/BootstrapVideo.mp4"
+import ComicWorldVideo from "../videos/ComicWorld.mp4"
 
 function Projects(){
     return (
@@ -47,17 +48,17 @@ function Projects(){
                 <div className="project">
                     <div>
                         <HoverVideoPlayer
-                            videoSrc={BootstrapVideo} 
+                            videoSrc={ComicWorldVideo} 
                             videoClassName="project-img"
-                            pausedOverlay={<img src={GreenBay} alt="" className="project-img"/>}
+                            pausedOverlay={<img src={ComicWorld} alt="" className="project-img"/>}
                             overlayTransitionDuration={500}
                         />
-                        <h1 className="project-title">Debrecen Nyomda</h1>
-                        <p className="project-description">A Debrecen Nyomda egy debreceni nyomda kezdőoldala, mely Bootstrap keretrendszerben készült</p>
+                        <h1 className="project-title">Comic World</h1>
+                        <p className="project-description">A Comic World egy képregény üzlet weboldala, ahol a felhasználó megtekintheti az elérhető termékeket, valamint megrendelheti azokat. A projekt React keretrendszerben készült.</p>
                     </div>
                     <div className="project-btns">
-                        <a href="https://dlevi20.github.io/Bootstrap/" className="project-btn" target="blank"><h4>Weboldal</h4></a>
-                        <a href="https://github.com/dlevi20/Bootstrap" className="project-btn" target="blank"><h4>Kód</h4></a>
+                        <a href="https://dlevi20.github.io/ComicWorld/" className="project-btn" target="blank"><h4>Weboldal</h4></a>
+                        <a href="https://github.com/dlevi20/ComicWorld" className="project-btn" target="blank"><h4>Kód</h4></a>
                     </div>
                 </div>
             </div>
